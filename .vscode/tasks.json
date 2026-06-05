@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Replace About section",
+			"type": "shell",
+			"command": "echo 'No-op'",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

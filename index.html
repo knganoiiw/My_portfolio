@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio cá nhân: Nguyễn Thị Kim Ngân</title>
+  <link rel="icon" type="image/png" href="assets/images/school-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="site-header" class="site-header" aria-label="Site header">
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="#home" class="navbar-brand" aria-label="Home">
+          <img src="assets/images/school-logo.png" alt="School logo" class="navbar-logo" />
+          <span class="brand-text">Nguyễn Thị Kim Ngân - 25023337</span>
+        </a>
+
+        <div class="nav-actions">
+          <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#intro" class="nav-link">Introduction</a></li>
+            <li><a href="#about" class="nav-link">About me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#reflection" class="nav-link">Overall</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Visual-only hero banner (must remain empty inside) -->
+  <section id="home" class="hero" role="region" aria-label="Home banner">
+    <img src="assets/images/Home.png" alt="Hero Banner" class="hero-img" />
+  </section>
+
+  <main>
+    <!-- Vintage Introduction Section (moved here) -->
+    <section id="intro" class="vintage-intro-section" aria-labelledby="intro-title">
+      <div class="intro-content-frame">
+        <h2 id="intro-title" class="intro-title">Giới thiệu chung</h2>
+
+        <div class="intro-body">
+          <p>
+            Chào mừng bạn đến với portfolio của tôi!
+          </p>
+          <p>
+            Website này được xây dựng nhằm tổng hợp và trình bày các bài tập, sản phẩm học tập cũng như những nội dung đã thực hiện trong học phần Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo.
+          </p>
+          <p>
+            Thông qua portfolio này, tôi mong muốn lưu lại quá trình học tập, tìm hiểu và ứng dụng các công cụ công nghệ số và trí tuệ nhân tạo vào thực tế. Đây cũng là nơi tổng hợp những kiến thức, trải nghiệm và kết quả đạt được trong suốt quá trình học tập của học phần.
+          </p>
+        </div>
+
+        <span class="star star--tl" aria-hidden="true"></span>
+        <span class="star star--tr" aria-hidden="true"></span>
+        <span class="star star--bl" aria-hidden="true"></span>
+        <span class="star star--br" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section id="about" class="scrapbook-about-section" aria-labelledby="about-me-title">
+      <img src="assets/images/about-composite-bg.png" alt="" aria-hidden="true" class="about-bg-img" />
+      <div class="scrapbook-about-grid">
+        <div class="scrapbook-about-spacer" aria-hidden="true"></div>
+
+        <div class="scrapbook-about-cards">
+          <article class="info-card info-card--profile">
+            <h2>Thông tin cá nhân</h2>
+            <dl>
+              <div>
+                <dt>Họ và tên</dt>
+                <dd>Nguyễn Thị Kim Ngân</dd>
+              </div>
+              <div>
+                <dt>Mã sinh viên</dt>
+                <dd>25023337</dd>
+              </div>
+              <div>
+                <dt>Trường</dt>
+                <dd>Đại học Công Nghệ - Đại học Quốc gia Hà Nội</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="info-card info-card--bio">
+            <h2>Giới thiệu</h2>
+            <p>
+              Là một sinh viên tại Trường Đại học Công nghệ (UET), tôi đặc biệt hứng thú với sự phát triển mạnh mẽ của Trí tuệ Nhân tạo và Công nghệ số. Hiểu rõ sự biến đổi không ngừng của thế giới công nghệ, tôi luôn nỗ lực học hỏi để làm chủ các công cụ mới. Đây là không gian lưu trữ và thể hiện những kỹ năng số tôi đã tích lũy được, dễ dàng chia sẻ với cộng đồng và nhà tuyển dụng trong tương lai.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt container" id="projects">
+      <div class="section-header reveal reveal-up">
+        <span class="section-label">Hồ sơ dự án</span>
+        <h2>6 bài tập học thuật</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal reveal-up">
+          <div class="project-badge">Bài tập 1</div>
+          <div class="project-content">
+            <h3>Thao tác cơ bản với tệp tin và thư mục</h3>
+            <p>Báo cáo thực hành tổ chức dữ liệu số và áp dụng quy tắc đặt tên chuẩn để quản lý tài liệu.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 1.pdf" data-title="Bài 1.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal reveal-up delay-1">
+          <div class="project-badge">Bài tập 2</div>
+          <div class="project-content">
+            <h3>Tìm kiếm và đánh giá thông tin học thuật</h3>
+            <p>Thu thập tài liệu, đánh giá nguồn tin và viết báo cáo nghiên cứu học thuật.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 2.pdf" data-title="Bài 2.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal reveal-up delay-2">
+          <div class="project-badge">Bài tập 3</div>
+          <div class="project-content">
+            <h3>Viết prompt hiệu quả cho AI học tập</h3>
+            <p>Phân tích các kỹ thuật đặt câu hỏi và tối ưu hóa đầu vào cho mô hình AI trong học tập.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 3.pdf" data-title="Bài 3.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal reveal-up delay-3">
+          <div class="project-badge">Bài tập 4</div>
+          <div class="project-content">
+            <h3>Hợp tác trực tuyến cho dự án nhóm</h3>
+            <p>Thiết kế luồng làm việc nhóm và công cụ hỗ trợ để hoàn thành dự án học tập hiệu quả.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 4.pdf" data-title="Bài 4.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal reveal-up delay-4">
+          <div class="project-badge">Bài tập 5</div>
+          <div class="project-content">
+            <h3>Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3>
+            <p>Trình bày kết quả ứng dụng AI tạo nội dung sáng tạo cho học tập và truyền thông.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 5.pdf" data-title="Bài 5.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal reveal-up delay-5">
+          <div class="project-badge">Bài tập 6</div>
+          <div class="project-content">
+            <h3>AI có trách nhiệm trong học tập</h3>
+            <p>Đề xuất nguyên tắc sử dụng AI an toàn, minh bạch và bảo vệ tư duy học thuật.</p>
+            <div class="project-actions">
+              <button type="button" class="btn-view-report" data-file="Nhập môn công nghệ số/Bài 6.pdf" data-title="Bài 6.pdf">Xem báo cáo</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- NEW Summary & Evaluation Section -->
+    <section id="reflection" class="overall-evaluation-section" aria-labelledby="eval-title">
+      <img src="assets/images/summary-countryside-bg.png" alt="Countryside Background" class="overall-evaluation-bg" />
+      
+      <div class="overall-content-overlay">
+        <header class="evaluation-header reveal reveal-up">
+          <span class="evaluation-subtitle">TỔNG KẾT VÀ ĐÁNH GIÁ</span>
+          <h2 id="eval-title" class="evaluation-main-title">Những học hỏi và định hướng tiếp theo.</h2>
+        </header>
+
+        <div class="eval-cards-grid">
+          <!-- Card 1: Experience & Lessons -->
+          <article class="eval-ivory-card reveal reveal-fade">
+            <h3 class="eval-card-title">Trải nghiệm và Bài học</h3>
+            <p class="eval-card-body">
+              Thông qua các bài tập thực hành và dự án của học phần, tôi nhận ra rằng kỹ năng số không chỉ là sử dụng công nghệ mà còn là khả năng tư duy và làm việc hiệu quả trong môi trường số. 
+            </p>
+            <p class="eval-card-body">
+              Từ những nhiệm vụ như quản lý tệp tin, tìm kiếm thông tin hay sử dụng AI, tôi hiểu rằng mỗi kỹ năng đều có những nguyên tắc riêng.
+            </p>
+            <p class="eval-card-body">
+               Bài học lớn nhất tôi rút ra là cần chủ động tìm hiểu, đánh giá thông tin một cách có chọn lọc và luôn giữ tư duy phản biện trước mọi nguồn dữ liệu tiếp nhận.
+            </p>
+          </article>
+
+          <!-- Card 2: Digital Skills Growth -->
+          <article class="eval-ivory-card reveal reveal-fade delay-1">
+            <h3 class="eval-card-title">Kỹ năng số phát triển</h3>
+            <p class="eval-card-body">
+              Qua các bài tập thực hành và dự án, tôi đã phát triển nhiều kỹ năng hữu ích cho quá trình học tập. Tôi biết cách tổ chức dữ liệu khoa học hơn, sử dụng các toán tử tìm kiếm nâng cao để tiếp cận nguồn tin đáng tin cậy và xây dựng prompt hiệu quả để khai thác AI.
+            </p>
+            <p class="eval-card-body">
+              Bên cạnh đó, tôi cũng hiểu rõ hơn về việc lập kế hoạch, phân công công việc và phối hợp trong môi trường trực tuyến.
+            </p>
+          </article>
+
+          <!-- Card 3: Future Orientation -->
+          <article class="eval-ivory-card reveal reveal-fade delay-2">
+            <h3 class="eval-card-title">Định hướng tương lai</h3>
+            <p class="eval-card-body">
+              Trong những năm học tiếp theo tại UET, tôi sẽ tiếp tục áp dụng các kỹ năng số vào học tập, nghiên cứu và các dự án cá nhân.  
+            </p>
+            <p class="eval-card-body">
+              Tôi muốn sử dụng AI như một công cụ hỗ trợ học tập thay vì phụ thuộc hoàn toàn vào kết quả mà nó tạo ra.
+            </p>
+            <p class="eval-card-body">
+              Đồng thời, tôi sẽ duy trì thói quen kiểm chứng thông tin và học hỏi các công nghệ mới để thích nghi với sự thay đổi không ngừng của môi trường số.
+            </p> 
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact container" id="contact">
+      <div class="section-header reveal reveal-up">
+        <span class="section-label">Kết nối với tôi</span>
+        <h2>Thông tin liên hệ</h2>
+      </div>
+
+      <div class="contact-grid reveal reveal-left">
+        <article class="contact-card">
+          <div class="contact-info">
+            <a class="contact-info-row" href="mailto:25023337@vnu.edu.vn">
+              <span class="contact-icon-inline" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 6.5h18v11H3z"/>
+                  <path d="M3 6.5l9 6.5 9-6.5"/>
+                </svg>
+              </span>
+              <span class="contact-label">25023337@vnu.edu.vn</span>
+            </a>
+
+            <a class="contact-info-row" href="tel:+840934368252">
+              <span class="contact-icon-inline" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.07 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72 12.33 12.33 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L9.5 10.5a16 16 0 0 0 4.9 4.9l1.86-1.86a2 2 0 0 1 2.11-.45 12.33 12.33 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <span class="contact-label">+84 093 436 8252</span>
+            </a>
+          </div>
+
+          <div class="contact-social">
+            <a class="social-link" href="https://www.facebook.com/nguyen.ngan.565061" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M13.5 22V13.6h3.5l.5-3.4h-4V7.2c0-1 .3-1.7 1.8-1.7h2.1V2h-2.8c-3.4 0-4.2 1.6-4.2 4.1v2.3H8.7v3.4h2.2V22h2.6Z"/>
+              </svg>
+            </a>
+            <a class="social-link" href="https://www.instagram.com/knagn_owii/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="4" ry="4"/>
+                <path d="M16.5 7.5h.01"/>
+                <path d="M8 12a4 4 0 0 1 8 0 4 4 0 0 1-8 0Z"/>
+              </svg>
+            </a>
+            <a class="social-link" href="https://github.com/knganoiiw" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2C7.6 2 4 5.6 4 10.1c0 3.4 2.2 6.2 5.2 7.2.4.1.5-.2.5-.4v-1.4c-2.1.4-2.5-1-2.5-1-.3-.8-.8-1-1-1-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-1.7-.2-3.5-.9-3.5-3.9 0-.9.3-1.7.9-2.3-.1-.2-.4-1.1.1-2.2 0 0 .8-.3 2.5.9.7-.2 1.4-.4 2.1-.4s1.4.1 2.1.4c1.7-1.2 2.5-.9 2.5-.9.5 1.1.2 2 .1 2.2.6.6.9 1.4.9 2.3 0 3-1.8 3.7-3.5 3.9.3.3.5.8.5 1.7v2.5c0 .2.1.5.5.4 3-1 5.2-3.8 5.2-7.2C20 5.6 16.4 2 12 2Z"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Portfolio học phần Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo  | Nguyễn Thị Kim Ngân | 2026</p>
+  </footer>
+
+  <div id="modal-backdrop" class="modal-backdrop" aria-hidden="true"></div>
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-panel" role="document">
+      <header class="modal-header">
+        <div>
+          <p class="modal-subtitle">Báo cáo dự án</p>
+          <h3 id="modal-title">Tên tài liệu</h3>
+        </div>
+        <button id="modal-close" class="modal-close" aria-label="Đóng cửa sổ">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </header>
+
+      <main class="modal-body">
+        <section class="document-viewer" aria-label="Document viewer">
+          <div class="viewer-stage">
+            <div class="viewer-frame" id="viewer-frame" aria-hidden="true">
+              <iframe id="doc-frame" src="" title="Document preview" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="viewer-mock" id="viewer-mock" aria-hidden="true">
+              <div class="mock-file-card">
+                <div class="mock-file-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 2h7l5 5v15H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/>
+                    <path d="M13 2v5h5"/>
+                    <path d="M10 12h4M10 16h4"/>
+                  </svg>
+                </div>
+                <div class="mock-file-copy">
+                  <p class="mock-file-label">DOCX Preview</p>
+                  <p class="mock-file-name" id="doc-name">Tên file.docx</p>
+                  <p class="mock-file-text">Trình duyệt không hỗ trợ xem trước file Word. Vui lòng tải xuống để mở tài liệu.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a id="modal-download" class="btn-download" href="assets/documents/example-report.pdf" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v10"/>
+              <path d="M8 11l4 4 4-4"/>
+              <path d="M5 19h14"/>
+            </svg>
+            <span>Tải xuống</span>
+          </a>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
