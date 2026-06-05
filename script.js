@@ -162,3 +162,36 @@ document.querySelectorAll('.btn-view-report').forEach((button) => {
     openProjectModal({ title, file });
   });
 });
+
+/**
+ * Xử lý Favicon (biểu tượng trên Tab trình duyệt)
+ * Tự động cắt tròn và phóng to để loại bỏ viền trắng thừa từ file ảnh gốc
+ */
+function setupDynamicFavicon() {
+  const img = new Image();
+  img.src = 'assets/images/school-logo.png';
+  img.onload = () => {
+    const canvas = document.createElement('canvas');
+    const size = 64; // Kích thước favicon tiêu chuẩn (đủ nét cho cả màn hình Retina)
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext('2d');
+
+    // Tạo vùng cắt hình tròn
+    ctx.beginPath();
+    ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+    ctx.clip();
+
+    // Vẽ logo và phóng đại nhẹ (scale 1.15) để đẩy viền trắng ra ngoài vùng cắt
+    const scale = 1.15;
+    const drawSize = size * scale;
+    const offset = (size - drawSize) / 2;
+    ctx.drawImage(img, offset, offset, drawSize, drawSize);
+
+    // Cập nhật đường dẫn icon của trang web bằng ảnh đã xử lý
+    const faviconLink = document.querySelector("link[rel*='icon']");
+    if (faviconLink) faviconLink.href = canvas.toDataURL('image/png');
+  };
+}
+
+window.addEventListener('DOMContentLoaded', setupDynamicFavicon);

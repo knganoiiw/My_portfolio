@@ -86,6 +86,7 @@
   border-radius: 50%;
   object-fit: cover;
   display: block;
+  transform: scale(1.15); /* Phóng to để cắt bỏ viền trắng thừa trong ảnh */
 }
 
 .brand-text {
